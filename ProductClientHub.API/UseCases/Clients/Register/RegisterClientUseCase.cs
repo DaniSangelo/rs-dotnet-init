@@ -8,7 +8,7 @@ namespace ProductClientHub.API.UseCases.Clients.Register
 {
     public class RegisterClientUseCase
     {
-        public ResponseClientJson Execute(RequestClientJson request)
+        public ResponseShortClientJson Execute(RequestClientJson request)
         {
             Validate(request);
             var dbContext = new ProductClientHubDbContext();
@@ -19,7 +19,7 @@ namespace ProductClientHub.API.UseCases.Clients.Register
             };
             dbContext.Clients.Add(client);
             dbContext.SaveChanges();
-            return new ResponseClientJson
+            return new ResponseShortClientJson
             {
                 Name = client.Name,
                 Id = client.Id,
