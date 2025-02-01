@@ -10,7 +10,7 @@ namespace ProductClientHub.API.Infra
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=C:\\Users\\Lenovo\\Documents\\Estudos\\TI\\Rocketseat\\c-sharp\\ProductClientHubDB.db");
+            optionsBuilder.UseSqlite("Data Source=C:\\Users\\Lenovo\\Documents\\Estudos\\TI\\Rocketseat\\c-sharp\\ProductClientHub\\ProductClientHubDB.db");
         }
     }
 }
