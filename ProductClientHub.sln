@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductClientHub.API", "ProductClientHub.API\ProductClientHub.API.csproj", "{13116D08-4DAA-4E92-A7E4-AB4C3ECA92B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductClientHub.API", "ProductClientHub.API\ProductClientHub.API.csproj", "{13116D08-4DAA-4E92-A7E4-AB4C3ECA92B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductClientHub.Communication", "ProductClientHub.Communication\ProductClientHub.Communication.csproj", "{93FA2673-FE59-422F-9AE1-0CD506404299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductClientHub.Communication", "ProductClientHub.Communication\ProductClientHub.Communication.csproj", "{93FA2673-FE59-422F-9AE1-0CD506404299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducClientHub.Exceptions", "ProducClientHub.Exceptions\ProducClientHub.Exceptions.csproj", "{9252EF09-1587-48C0-AE52-BA340E311AE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductClientHub.Exceptions", "ProducClientHub.Exceptions\ProductClientHub.Exceptions.csproj", "{9252EF09-1587-48C0-AE52-BA340E311AE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

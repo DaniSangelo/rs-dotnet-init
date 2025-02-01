@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace ProducClientHub.Exceptions.ExceptionsBase
+namespace ProductClientHub.Exceptions.ExceptionsBase
 {
     public abstract class ProductClientHubException : SystemException
     {

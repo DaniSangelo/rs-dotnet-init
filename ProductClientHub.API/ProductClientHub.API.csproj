@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProducClientHub.Exceptions\ProducClientHub.Exceptions.csproj" />
+    <ProjectReference Include="..\ProducClientHub.Exceptions\ProductClientHub.Exceptions.csproj" />
     <ProjectReference Include="..\ProductClientHub.Communication\ProductClientHub.Communication.csproj" />
   </ItemGroup>
 
