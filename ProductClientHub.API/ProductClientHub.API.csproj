@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="UseCases\Products\NewFolder1\**" />
+    <Compile Remove="UseCases\Products\NewFolder2\**" />
+    <Content Remove="UseCases\Products\NewFolder1\**" />
+    <Content Remove="UseCases\Products\NewFolder2\**" />
+    <EmbeddedResource Remove="UseCases\Products\NewFolder1\**" />
+    <EmbeddedResource Remove="UseCases\Products\NewFolder2\**" />
+    <None Remove="UseCases\Products\NewFolder1\**" />
+    <None Remove="UseCases\Products\NewFolder2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.11.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.1" />
